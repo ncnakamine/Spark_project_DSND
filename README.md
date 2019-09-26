@@ -1,5 +1,4 @@
 # Spark_project_DSND
-Spark_project_DSND
 
 # Summary
 This notebook explores features related to whether or not a customer churns for a Sparkify, a ficticious music streaming company. 
