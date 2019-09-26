@@ -58,10 +58,10 @@ mini_sparkify_event_data.json - json data file
 
 - We see that the random forest model performs best in terms of the training f1 score and not overfitting the training data when compared to logistic regression and gradient boosted trees. To reduce processing time, I pursued cross validation with the random forest model to further optimize parameters.
 
-- Areas for future improvement:
-Note, we are performing this analysis on a subset of the data, so data points when using userId as the unit of analysis is somewhat minimal with 225 observations. This shouldn't be a problem if we were to scale the script to the full dataset.
+## Areas for future improvement:
+- Note, we are performing this analysis on a subset of the data, so data points when using userId as the unit of analysis is somewhat minimal with 225 observations. This shouldn't be a problem if we were to scale the script to the full dataset.
 
-If we wanted to create more data points with this data, one option might be to create rolling averages for each user to predict whether or not they'll churn the next day. We could do this by looking at their activity the past week and past month. If activity during the past week is different in a predictable way, that might lend itself to predicting future churn.
+- If we wanted to create more data points with this data, one option might be to create rolling averages for each user to predict whether or not they'll churn the next day. We could do this by looking at their activity the past week and past month. If activity during the past week is different in a predictable way, that might lend itself to predicting future churn.
 
 
 # Citations 
