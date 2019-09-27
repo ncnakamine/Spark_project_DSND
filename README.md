@@ -14,7 +14,7 @@ Seaborn
 
 # Files
 Sparkify.ipynb - Notebook with analyses and findings. Includes loading and cleaning data, EDA, defining churn, feature engineering, and modeling.  
-mini_sparkify_event_data.json - json data file
+mini_sparkify_event_data.json.zip - json data file
 
 
 # Main findings 
