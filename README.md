@@ -63,6 +63,9 @@ mini_sparkify_event_data.json.zip - json data file
 
 - If we wanted to create more data points with this data, one option might be to create rolling averages for each user to predict whether or not they'll churn the next day. We could do this by looking at their activity the past week and past month. If activity during the past week is different in a predictable way, that might lend itself to predicting future churn.
 
+## Medium blog post
+https://medium.com/@ncnakamine/predicting-sparkify-churn-with-spark-845275329349
+
 
 # Citations 
 Udacity Data Science Nanodegree Program https://www.udacity.com/course/data-scientist-nanodegree--nd025
